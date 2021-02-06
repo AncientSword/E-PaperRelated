@@ -53,15 +53,15 @@ void setup()
   /*Refresh the information and display them on the screen*/
   refresh();
   /*Deep Sleep Mode*/
-  deepSleep();
+  //deepSleep();
 }
 
 /* The main loop*/
 void loop()
 {
   /*Refresh the information every hour*/
-  //sleep(3600);
-  //refresh();
+  sleep(3600);
+  refresh();
 }
 
 /* Connect to Wifi*/
